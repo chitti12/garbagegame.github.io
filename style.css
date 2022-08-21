@@ -1,0 +1,129 @@
+body {
+    color: #C6CA53;
+    background-color: #0A0A0B;
+    font-family: 'VT323', monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Freckle Face', cursive;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Freckle Face', cursive;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+}
+
+#intro {
+    font-size: 24px
+}
+#start-btn {
+    font-family: 'VT323', monospace;
+    color: #C6CA53;
+    background-color: #0A0A0B;
+}
+
+#main {
+    display: none;
+    border: 1px dashed #C6CA53;
+    height: 400px;
+    width: 800px;
+    background-image: url('img/bg.png');
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 800px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#bottom-left, #bottom-right {
+    display: none;
+    width: 50%;
+}
+
+#left, #right {
+    width: 40%;
+}
+
+#left {
+    display: flex;
+    align-items: center;
+}
+
+#stage {
+    text-align: left;
+    width: 20%;
+}
+
+#message {
+    width: 80%;
+    text-align: center;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 25px;
+}
+
+#right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#inventory, #health {
+    width: 50%;
+}
+
+#health {
+    text-align: right;
+}
+
+#inventory {
+    text-align: right;
+}
+
+#inventory-img {
+    width: 30px;
+}
+
+#retry-btn {
+    font-family: 'VT323', monospace;
+    color: #C6CA53;
+    background-color: #0A0A0B;
+    display: none;
+}
+
+#stage-btn {
+    font-family: 'VT323', monospace;
+    color: #C6CA53;
+    background-color: #0A0A0B;
+    display: none;
+}
+
+#mute, #unmute {
+    font-family: 'VT323', monospace;
+    color: #C6CA53;
+    background-color: #0A0A0B;
+    margin-top: 20px;
+    display: none;
+}

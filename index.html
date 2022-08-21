@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Garbage Boy</title>
+</head>
+<body>
+    <div id="container">
+        <div id="top">
+            <h1>Garbage Boy</h1>
+            <h2>And Their Definitely Exciting Adventure</h2>
+        </div>
+        <div id="intro">
+            <h2>Meet your new friend.</h2>
+            <p><img src="img/garbageboy2.png" alt=""></p>
+            <p>Name: Garbage Boy</p>
+            <p>Home: Garbage Can</p>
+            <p>Likes: Garbage</p>
+            <p>Dislikes: Rats</p>
+            <p>Favorite Activity: Picking up litter and taking it home for, ya know, stuff.</p>
+            <p>Move: WASD. Use inventory items by clicking the image in your inventory at the bottom right of the screen.</p>
+            <input id="start-btn" type="button" value="Start Game">
+        </div>
+        <main id="main">
+            <canvas id="game">Your browser must support HTML5 and JavaScript to play Garbage Boy</canvas>
+        </main>
+        <div id="bottom">
+            <div id="left">
+                <div id="stage"></div>
+                <div id="message"></div>
+            </div>
+            <div id="center">
+                <input id="retry-btn" type="button" value="Retry">
+                <input id="stage-btn" type="button" value="Next Stage">
+            </div>
+            <div id="right">
+                <div id="health"></div>
+                <div id="inventory"></div>
+                <div id="inventory-img"></div>
+                </div>
+            </div>
+        </div>
+
+        <input id="mute" type="button" value="mute">
+        <input id="unmute" type="button" value="unmute">
+        
+    </div>
+</body>
+</html>
